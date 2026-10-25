@@ -1,0 +1,19 @@
+{
+    "type": "function",
+    "function": {
+        "name": "enable_object_detection",
+        "description": "Função para ativar ou desativar o sistema de detecção de objetos por meio de imagem.",
+        "parameters": {
+            "type": "object",
+            "properties": {
+                "data": {
+                    "type": "string",
+                    "enum": ["True", "False"],
+                    "description": "Parâmetro para ativar a detecção de objetos por meio visual com o valor True, ou desativá-la com o valor False."
+                }
+            },
+            "required": ["data"],
+            "additionalProperties": false
+        }
+    }
+}

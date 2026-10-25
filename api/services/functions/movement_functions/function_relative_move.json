@@ -1,0 +1,23 @@
+{
+    "type": "function",
+    "function": {
+        "name": "relative_move",
+        "description": "Comanda um movimento relativo para o robô.",
+        "parameters": {
+            "type": "object",
+            "properties":{
+                "linear": {
+                    "type": "number"
+                },
+                "angular": {
+                    "type": "number"
+                }
+            },
+            "required": [
+                "linear",
+                "angular"
+            ],
+            "additionalProperties": false
+        }
+    }
+}

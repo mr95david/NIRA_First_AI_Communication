@@ -1,0 +1,8 @@
+{
+    "type": "function",
+    "function": {
+        "name": "reject_request",
+        "description": "Use esta função se a solicitação não for possível.",
+        "parameters": {"type": "object", "properties": {}}
+    }
+}

@@ -1,0 +1,7 @@
+{ "type": "function",
+    "function": { 
+        "name": "stop_movement",
+        "description": "Esta função deve ser usada apenas quando a FRASE EXATA 'robô pare' for recebida. Nenhuma outra variação ou comando diferente deve ativar esta função. SOAMENTE 'robô pare' indica a detenção do movimento.",
+        "parameters": {"type": "object", "properties": {}} 
+    }
+}

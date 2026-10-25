@@ -1,0 +1,47 @@
+[
+    {
+        "service": "move_to_pose",
+        "args": {
+            "x": -1.8,
+            "y": -12.6,
+            "theta": 3.141592653589793
+        }
+    },
+    {
+        "service": "relative_move",
+        "args": {
+            "linear": 0,
+            "angular": -1.5707963267948966
+        }
+    },
+    {
+        "service": "move_to_pose",
+        "args": {
+            "x": -1.8,
+            "y": -10.6,
+            "theta": 1.5708
+        }
+    },
+    {
+        "service": "relative_move",
+        "args": {
+            "linear": 0,
+            "angular": 0.7853981633974483
+        }
+    },
+    {
+        "service": "move_to_pose",
+        "args": {
+            "x": -2.65,
+            "y": -8.7,
+            "theta": 2.0943951023931953
+        }
+    },
+    {
+        "service": "relative_move",
+        "args": {
+            "linear": 0,
+            "angular": -0.7853981633974483
+        }
+    }
+]

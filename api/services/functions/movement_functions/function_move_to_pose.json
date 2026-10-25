@@ -1,0 +1,36 @@
+{
+    "type": "function",
+    "function": {
+        "name": "move_to_pose",
+        "description": "Especifica as coordenadas no plano onde o robô deve se mover.",
+        "parameters": {
+            "type": "object",
+            "properties":{
+                "x": {
+                    "type": "number",
+                    "min": 0,
+                    "max": 10,
+                    "description": "Especifica a posição exata desejada ao longo do eixo x para o robô atingir."
+                },
+                "y": {
+                    "type": "number",
+                    "min": 0,
+                    "max": 10,
+                    "description": "Especifica a posição exata desejada ao longo do eixo y para o robô atingir."
+                },
+                "theta": {
+                    "type": "number",
+                    "min": -3.14,
+                    "max": 3.14,
+                    "description": "Especifica o ângulo de orientação em radianos que o robô deve assumir."
+                }
+            },
+            "required": [
+                "x",
+                "y",
+                "theta"
+            ],
+            "additionalProperties": false
+        }
+    }
+}

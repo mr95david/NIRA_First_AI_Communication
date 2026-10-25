@@ -1,0 +1,57 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Secrets / local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+instance/
+flask_session/
+
+# Databases (created by db.create_all() in run.py; may contain user data)
+*.db
+*.sqlite
+*.sqlite3
+
+# User data: audio, transcripts and chat history per user
+user_path/*
+!user_path/.gitkeep
+
+# Recorded audio and runtime artifacts
+assets/current-record/
+*.wav
+*.mp3
+saved_image.png
+
+# RAG index: rebuilt on every startup by OllamaAIInterfaceConnection.rag_generation
+retriever_data/
+*.index
+
+# Model caches
+.cache/
+huggingface/
+
+# Notebooks / tooling
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+graphify-out/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.log
